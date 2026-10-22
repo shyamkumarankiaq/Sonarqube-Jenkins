@@ -12,7 +12,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('SonarQube') {
                     sh '''
-                        sonar-scanner \
+                        /opt/sonar-scanner-8.0.1.6346-linux-x64/bin/sonar-scanner \
                           -Dsonar.projectKey=SonarQube-Kiaq-Lab \
                           -Dsonar.projectName="SonarQube Kiaq Lab" \
                           -Dsonar.sources=src
