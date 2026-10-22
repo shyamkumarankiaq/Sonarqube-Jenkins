@@ -1,0 +1,5 @@
+.sonar/
+.scannerwork/
+.env
+.env.*
+!.env.example
